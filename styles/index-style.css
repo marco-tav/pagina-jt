@@ -1,3 +1,7 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 header {
     display: flex;
     height: 80px;
@@ -23,7 +27,7 @@ header {
 
 .nav-li {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .nav-link {
@@ -33,5 +37,13 @@ header {
 
 .nav-link:visited {
     color: #ececec;
+}
+
+.current {
+    color: #ffc000;
+}
+
+.current:visited {
+    color: #ffc000;
 }
 
