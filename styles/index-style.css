@@ -124,6 +124,14 @@
     font-display: swap;
 }
 
+:root {
+    --indian-yellow: #e4a74e;
+    --amber: #ffc000;
+    --silver: #bfbfbf;
+    --light-gray: #d5d5d5;
+    --cultured:
+}
+
 * {
     font-family: 'IBM Plex Sans';
 }
