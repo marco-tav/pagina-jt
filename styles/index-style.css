@@ -95,12 +95,12 @@ header {
 
 .logo {
     max-width: 80px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 #header-nav {
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .nav-list {
@@ -122,10 +122,9 @@ header {
 }
 
 .current {
-    color: #ffc000;
+    color: var(--indian-yellow);
 }
 
 .current:visited {
-    color: #ffc000;
+    color: var(--indian-yellow);
 }
-
