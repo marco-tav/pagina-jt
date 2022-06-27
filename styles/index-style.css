@@ -82,6 +82,11 @@
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 }
 
+body {
+    position: relative;
+}
+
+
 header {
     display: flex;
     height: 80px;
@@ -127,4 +132,19 @@ header {
 
 .current:visited {
     color: var(--indian-yellow);
+}
+
+main {
+    position: absolute;
+    top: 80px;
+    width: 100vw;
+    min-height: calc(100vh - 80px);
+    background-color: var(--cultured);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: var(--silver);
+    width: 70%;
 }
