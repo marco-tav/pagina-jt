@@ -147,4 +147,12 @@ main {
 .content-box {
     background-color: var(--silver);
     width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    align-self: center;
+    font-weight: 600;
+    font-size: 3rem;
 }
