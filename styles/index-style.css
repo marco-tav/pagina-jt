@@ -126,11 +126,11 @@ header {
     color: #ececec;
 }
 
-.current {
+.current-link {
     color: var(--indian-yellow);
 }
 
-.current:visited {
+.current-link:visited {
     color: var(--indian-yellow);
 }
 
@@ -144,7 +144,7 @@ main {
     justify-content: center;
 }
 
-.content {
+.content-box {
     background-color: var(--silver);
     width: 70%;
 }
