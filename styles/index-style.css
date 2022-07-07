@@ -167,6 +167,16 @@ main {
     width: 50%;
 }
 
+.subheading {
+    font-size: 1.7rem;
+    margin-left: 15px;
+}
+
+.common-text {
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
 .img {
     width: 50%;
 }
