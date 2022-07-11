@@ -96,7 +96,7 @@ header {
     align-items: center;
     font-size: 1.1rem;
     font-weight: 400;
-    z-index: 1000;
+    z-index: 1000   ;
 }
 
 .logo {
@@ -193,7 +193,7 @@ main {
     align-items: center;
 }
 
-.img-placeholder-1 {
+.img-placeholder-right {
     width: 550px;
     height: 500px;
     background-color: var(--indian-yellow);
@@ -206,4 +206,19 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.img-placeholder-left {
+    width: 550px;
+    background-color: var(--indian-yellow);
+    margin-left: 25px;
+}
+
+.first {
+    height: 500px;
+}
+
+.second {
+    height: 700px;
+    margin-top: 60px;
 }
