@@ -188,12 +188,13 @@ main {
 .img {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.img-placeholder {
-    width: 500px;
+.img-placeholder-1 {
+    width: 550px;
     height: 500px;
     background-color: var(--indian-yellow);
+    margin-right: 25px;
 }
