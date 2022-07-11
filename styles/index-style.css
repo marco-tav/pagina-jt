@@ -96,6 +96,7 @@ header {
     align-items: center;
     font-size: 1.1rem;
     font-weight: 400;
+    z-index: 1000;
 }
 
 .logo {
