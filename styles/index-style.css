@@ -185,7 +185,7 @@ main {
     margin-right: 25px;
 }
 
-.img {
+.img-right > .img {
     width: 50%;
     display: flex;
     justify-content: flex-end;
@@ -197,4 +197,12 @@ main {
     height: 500px;
     background-color: var(--indian-yellow);
     margin-right: 25px;
+}
+
+.img-left > .img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
