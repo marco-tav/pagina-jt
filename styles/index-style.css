@@ -146,7 +146,7 @@ main {
 }
 
 .content-box {
-    background-color: var(--silver);
+    background-color: var(--cultured);
     width: 100%;
     max-width: 1200px;
     display: flex;
