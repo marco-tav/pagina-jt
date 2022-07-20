@@ -71,11 +71,11 @@
 }
 
 :root {
-    --indian-yellow: #e4a74e;
-    --amber: #ffc000;
-    --silver: #bfbfbf;
-    --light-gray: #d5d5d5;
-    --cultured: #ececec;
+    --dark-yellow: #e4a74e;
+    --light-yellow: #ffc000;
+    --dark-gray: #bfbfbf;
+    --gray: #d5d5d5;
+    --light-gray: #ececec;
 }
 
 * {
@@ -119,20 +119,20 @@ header {
 }
 
 .nav-link {
-    color: #ececec;
+    color: var(--light-gray);
     text-decoration: none;
 }
 
 .nav-link:visited {
-    color: #ececec;
+    color: var(--light-gray);
 }
 
 .current-link {
-    color: var(--indian-yellow);
+    color: var(--dark-yellow);
 }
 
 .current-link:visited {
-    color: var(--indian-yellow);
+    color: var(--dark-yellow);
 }
 
 main {
@@ -140,13 +140,13 @@ main {
     top: 80px;
     width: 100vw;
     min-height: calc(100vh - 80px);
-    background-color: var(--cultured);
+    background-color: var(--light-gray);
     display: flex;
     justify-content: center;
 }
 
 .content-box {
-    background-color: var(--cultured);
+    background-color: var(--light-gray);
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -196,7 +196,7 @@ main {
 .img-placeholder-right {
     width: 550px;
     height: 500px;
-    background-color: var(--indian-yellow);
+    background-color: var(--dark-yellow);
     margin-right: 25px;
 }
 
@@ -210,7 +210,7 @@ main {
 
 .img-placeholder-left {
     width: 550px;
-    background-color: var(--indian-yellow);
+    background-color: var(--dark-yellow);
     margin-left: 25px;
 }
 
