@@ -126,6 +126,18 @@ body {
   margin-top: 15px;
 }
 
+a, a:visited {
+  color: var(--light-yellow);
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+a:active {
+  color: var(--dark-yellow)
+}
+
 .jat-image-container {
   width: 60%;
 }
