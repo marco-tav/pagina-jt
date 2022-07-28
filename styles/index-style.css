@@ -152,6 +152,7 @@ main {
     max-width: 1200px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .main-heading {
@@ -210,7 +211,8 @@ main {
 }
 
 .img-placeholder-left {
-    width: 550px;
+    width: 90%;
+    max-width: 550px;
     background-color: var(--dark-yellow);
     margin-left: 25px;
 }
