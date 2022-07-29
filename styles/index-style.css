@@ -83,3 +83,25 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    min-width: 100vw;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+header a img {
+    max-width: 90px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.menu {
+    margin-right: 10px;
+    color: var(--gray);
+}
+
