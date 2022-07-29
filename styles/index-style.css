@@ -218,10 +218,10 @@ main {
 }
 
 .first {
-    height: 500px;
+    min-height: 500px;
 }
 
 .second {
-    height: 700px;
+    min-height: 700px;
     margin-top: 60px;
 }
