@@ -100,10 +100,11 @@ nav {
     margin-left: auto;
 }
 
-.menu {
+.dropbtn {
+    background-color: black;
+    border: none;
     margin-right: 15px;
     color: var(--light-gray);
     font-size: 1.1rem;
     font-weight: 400;
 }
-
