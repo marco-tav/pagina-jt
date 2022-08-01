@@ -82,6 +82,9 @@
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
     box-sizing: border-box;
 }
+body {
+    position: relative;
+}
 
 header {
     display: flex;
@@ -89,6 +92,8 @@ header {
     align-items: center;
     height: 75px;
     background-color: black;
+    position: fixed;
+    z-index: 1000;
 }
 
 header a img {
@@ -140,3 +145,4 @@ nav {
 nav:hover .dropdown-content {
     display: block;
 }
+
