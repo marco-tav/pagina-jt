@@ -5,4 +5,4 @@ Este es el repositorio para la pagina de JT (Consultoria).
 
 ## Status
 
-Remaking things with a mobile-first approach.
+Dropdown menu added. Styles aren't yet finished. It will be better to properly style when the content it will overlap is already in place.
