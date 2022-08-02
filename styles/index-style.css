@@ -129,7 +129,7 @@ nav {
     display: none;
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
-    min-width: 140px;
+    min-width: 130px;
     z-index: 1;
     top: 55px;
     right: 5px;
@@ -142,7 +142,7 @@ nav {
     color: var(--light-gray);
     text-decoration: none;
     padding: 8px 0px 8px 8px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .current {
