@@ -110,7 +110,7 @@ header a img {
     font-weight: 600;
 }
 
-.dropbtn:hover {
+.dropbtn-active{
     color: var(--dark-yellow);
 }
 
@@ -142,7 +142,7 @@ nav {
     background: rgba(0, 0, 0, 0.8);
 }
 
-nav:hover .dropdown-content {
+.display-dropdown {
     display: block;
 }
 
