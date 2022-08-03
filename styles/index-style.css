@@ -99,15 +99,9 @@ header {
     z-index: 1000;
 }
 
-<<<<<<< HEAD
-.logo {
-    max-width: 90px;
-    margin-left: 40px;
-=======
 header a img {
     max-width: 80px;
     margin-left: 15px;
->>>>>>> origin/mobile-first
 }
 
 .dropbtn {
@@ -129,10 +123,6 @@ nav {
     position: relative;
     display: inline-block;
     margin-left: auto;
-<<<<<<< HEAD
-    margin-right: 40px;
-=======
->>>>>>> origin/mobile-first
 }
 
 .dropdown-content {
