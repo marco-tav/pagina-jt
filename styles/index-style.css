@@ -142,7 +142,7 @@ nav {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 8px 0px 8px 0px;
+    padding: 8px 15px 8px 0px;
     font-size: 1.5rem;
 }
 
@@ -158,7 +158,7 @@ nav {
 .display-dropdown {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     gap: 8px;
 }
 
