@@ -155,12 +155,6 @@ nav {
     border-radius: 5px;
 }
 
-.nav-link:hover {
-    color: var(--dark-yellow);
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
-}
-
 .display-dropdown {
     display: flex;
     flex-direction: column;
