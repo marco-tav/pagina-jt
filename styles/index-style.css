@@ -105,6 +105,12 @@ header a img {
     border-radius: 3px;
 }
 
+nav {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+}
+
 .dropbtn {
     font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
     background-color: black;
@@ -118,12 +124,6 @@ header a img {
 
 .dropbtn-active{
     color: var(--dark-yellow);
-}
-
-nav {
-    position: relative;
-    display: inline-block;
-    margin-left: auto;
 }
 
 .dropdown-content {
