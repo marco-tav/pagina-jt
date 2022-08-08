@@ -101,7 +101,7 @@ header {
 
 header a img {
     max-width: 80px;
-    margin-left: 20px;
+    margin-left: 15px;
     border-radius: 3px;
 }
 
@@ -198,10 +198,6 @@ nav {
 
   .dropdown-content a:first-child {
     margin-top: 0px;
-  }
-
-  .dropdown-content a:last-child {
-    margin-right: 5px;
   }
 }
 
