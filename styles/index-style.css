@@ -96,6 +96,8 @@ header {
     height: 75px;
     background-color: black;
     position: fixed;
+    top: 0px;
+    left: 0px;
     z-index: 1000;
 }
 
@@ -204,20 +206,3 @@ nav {
 /*------------------------------CONTENIDO------------------------------*/
 /*---------------------------------------------------------------------*/
 
-main {
-    position: absolute;
-    top: 75px;
-    background-color: var(--light-gray);
-    min-width: 100vw;
-    min-height: calc(100vh - 75px);
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    font-size: clamp(2rem, 1rem + 3.5vw, 3.5rem);
-    font-weight: 600;
-}
