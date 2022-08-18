@@ -242,6 +242,10 @@ h1 {
         flex-direction: row-reverse;
         gap: 30px;
     }
+
+    .subheading {
+        margin-top: 0px;
+    }
 }
 
 .subheading {
