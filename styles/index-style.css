@@ -286,12 +286,12 @@ li {
     font-weight: 600;
 }
 
-.card-img {
+.card-media {
     display: flex;
     align-items: center;
 }
 
-.card-img > img{
+.card-media > img{
     width: 100%;
     max-width: 750px;
     margin-bottom: 10px;
@@ -300,7 +300,7 @@ li {
 }
 
 @media (min-width: 1100px) {
-    .card-img > img {
+    .card-media > img {
         max-width: 540px;
     }
 }
