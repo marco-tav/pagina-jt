@@ -280,7 +280,7 @@ h1 {
 }
 
 li {
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 0.5rem + 0.95vw, 0.92rem);
     margin: 0px 0px 7px -20px;
     text-align: justify;
     font-weight: 600;
