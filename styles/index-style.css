@@ -260,7 +260,7 @@ h1 {
 
 .card-text > p {
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 0.5rem + 0.55vw, 0.92rem);
     max-width: 540px;
 }
 
