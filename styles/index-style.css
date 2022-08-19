@@ -282,7 +282,7 @@ h1 {
 li {
     font-size: clamp(0.8rem, 0.5rem + 0.95vw, 0.92rem);
     margin: 0px 0px 7px -20px;
-    text-align: justify;
+    text-align: justiuntracked/para Marco WEB Home page/V_Textos1.mp4fy;
     font-weight: 600;
 }
 
@@ -291,7 +291,8 @@ li {
     align-items: center;
 }
 
-.card-media > img{
+.card-media > img,
+.card-media > video {
     width: 100%;
     max-width: 700px;
     margin-bottom: 10px;
