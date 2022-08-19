@@ -239,7 +239,7 @@ h1 {
 }
 
 @media (min-width: 1100px) {
-    .card {
+    .reverse-layout {
         flex-direction: row-reverse;
         gap: 30px;
     }
