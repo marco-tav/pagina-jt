@@ -78,10 +78,19 @@
     --light-gray: #ececec;
 }
 
-* {
-    font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+html {
     box-sizing: border-box;
 }
+
+* {
+    font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     position: relative;
     display: flex;
