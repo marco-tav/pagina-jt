@@ -131,7 +131,7 @@ nav {
     color: var(--dark-yellow);
 }
 
-@media (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   .dropbtn {
     display: none;
   }
@@ -179,7 +179,7 @@ nav {
     gap: 8px;
 }
 
-@media (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   .dropdown-content {
     position: static;
     display: flex;
@@ -239,7 +239,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-@media (min-width: 1100px) {
+@media only screen and (min-width: 1100px) {
     .reverse-layout {
         flex-direction: row-reverse;
         gap: 30px;
@@ -254,7 +254,7 @@ h1 {
     text-align: left;
 }
 
-@media (min-width: 1100px) {
+@media only screen and (min-width: 1100px) {
     .subheading {
         margin-top: 0px;
     }
@@ -266,7 +266,7 @@ h1 {
     max-width: 700px;
 }
 
-@media (min-width: 1100px) {
+@media only screen and (min-width: 1100px) {
     .card-text > p {
         max-width: 540px;
     }
@@ -305,7 +305,7 @@ li {
     border: none;
 }
 
-@media (min-width: 1100px) {
+@media only screen and (min-width: 1100px) {
     .card-media > img,
     .card-media > video {
         max-width: 540px;
