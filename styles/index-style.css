@@ -236,6 +236,7 @@ h1 {
 .card {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 1100px) {
@@ -282,7 +283,7 @@ h1 {
 li {
     font-size: clamp(0.8rem, 0.5rem + 0.95vw, 0.92rem);
     margin: 0px 0px 7px -20px;
-    text-align: justiuntracked/para Marco WEB Home page/V_Textos1.mp4fy;
+    text-align: justify;
     font-weight: 600;
 }
 
@@ -300,9 +301,19 @@ li {
     border-radius: 2px;
 }
 
+.card-media > video {
+    border: none;
+}
+
 @media (min-width: 1100px) {
-    .card-media > img {
+    .card-media > img,
+    .card-media > video {
         max-width: 540px;
+    }
+
+    .normal-layout {
+        flex-direction: row;
+        gap: 30px;
     }
 }
 
