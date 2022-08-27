@@ -1,8 +1,8 @@
 # Pagina JT
 
-Este es el repositorio para la pagina de JT (Consultoria).
+Repository por JT's website.
 
 
 ## Status
 
-Navigation menu is now responsive and works for both mobile and desktop. It still is, however, not final and needs more work that will be done at a later date after more prioritary work is done.
+Navigation menu is now responsive and works for both mobile and desktop. Content is done for homepage in english versions and is responsive. Background image has to be added.
