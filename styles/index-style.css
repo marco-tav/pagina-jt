@@ -248,7 +248,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
     .card {
         margin-bottom: 30px;
     }
@@ -267,7 +267,7 @@ h1 {
     text-align: left;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
     .subheading {
         margin-top: 0px;
     }
@@ -279,7 +279,7 @@ h1 {
     max-width: 650px;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
     .card-text > p {
         max-width: 540px;
     }
@@ -318,7 +318,7 @@ li {
     border: none;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
     .card-media > img,
     .card-media > video {
         max-width: 540px;
@@ -327,6 +327,10 @@ li {
     .normal-layout {
         flex-direction: row;
         gap: 30px;
+    }
+
+    .chart {
+        align-items: flex-start;
     }
 }
 
@@ -347,7 +351,7 @@ li {
     width: 100%;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 100px) {
     .mySlides > img {
         max-width: 540px;
     }
