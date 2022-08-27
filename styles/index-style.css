@@ -334,3 +334,30 @@ li {
     font-weight: normal;
     margin: 0px 0px 5px -20px;
 }
+
+/*------------------------------SLIDESHOW------------------------------*/
+/*---------------------------------------------------------------------*/
+.mySlides {
+    display: none;
+}
+
+.mySlides > img {
+    max-width: 700px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1100px) {
+    .mySlides > img {
+        max-width: 540px;
+    }
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
