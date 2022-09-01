@@ -96,6 +96,17 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--light-gray);
+    overflow-x: hidden;
+}
+
+.bg {
+    position: fixed;
+    height: 100vh;
+    min-width: 100%;
+    z-index: -1;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*-------------------------------HEADER--------------------------------*/
