@@ -104,7 +104,7 @@ body {
     height: 100vh;
     min-width: 100vw;
     z-index: -1;
-    background-image: url(../untracked/images/background-sand-gs.jpg);
+    background-image: url(../images/background-sand-gs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
