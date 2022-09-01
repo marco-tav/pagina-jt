@@ -104,9 +104,11 @@ body {
     height: 100vh;
     min-width: 100vw;
     z-index: -1;
-    background-image: url();
+    background-image: url(../untracked/images/background-sand-gs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 0px -250px;
 }
 
 /*-------------------------------HEADER--------------------------------*/
@@ -233,9 +235,8 @@ nav {
     position: absolute;
     top: 75px;
     width: 100vw;
-    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.6);
     min-height: calc(100vh - 75px);
-    background-color: var(--light-gray);
     padding: 0px 15px;
     display: flex;
     flex-direction: column;
