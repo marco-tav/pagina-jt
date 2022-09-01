@@ -108,7 +108,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
-    background-position: 0px -250px;
+    background-position: 0px 0px;
+}
+
+@media only screen and (min-width: 1860px) {
+    .bg {
+        background-position: 0px -250px;
+    }
 }
 
 /*-------------------------------HEADER--------------------------------*/
