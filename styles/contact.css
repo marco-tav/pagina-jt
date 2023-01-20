@@ -1,4 +1,5 @@
-@font-face { /* FW: 300, FS: normal */
+@font-face {
+    /* FW: 300, FS: normal */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-Light.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-Light.woff') format('woff');
@@ -7,7 +8,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: 300, FS: italic */
+@font-face {
+    /* FW: 300, FS: italic */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff') format('woff');
@@ -16,7 +18,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: normal, FS: normal */
+@font-face {
+    /* FW: normal, FS: normal */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff') format('woff');
@@ -25,7 +28,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: normal, FS: italic */
+@font-face {
+    /* FW: normal, FS: italic */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-Italic.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-Italic.woff') format('woff');
@@ -34,7 +38,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: 600, FS: normal */
+@font-face {
+    /* FW: 600, FS: normal */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff') format('woff');
@@ -43,7 +48,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: 600, FS: italic */
+@font-face {
+    /* FW: 600, FS: italic */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff') format('woff');
@@ -52,7 +58,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: bold, FS: normal */
+@font-face {
+    /* FW: bold, FS: normal */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-Bold.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-Bold.woff') format('woff');
@@ -61,7 +68,8 @@
     font-display: swap;
 }
 
-@font-face { /* FW: bold, FS: italic */
+@font-face {
+    /* FW: bold, FS: italic */
     font-family: 'IBM Plex Sans';
     src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff2') format('woff2'),
         url('../fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff') format('woff');
@@ -87,7 +95,8 @@ html {
     box-sizing: inherit;
 }
 
-*::after, *::before {
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -95,6 +104,26 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    background-color: var(--light-gray);
+    overflow-x: hidden;
+}
+
+.bg {
+    position: fixed;
+    height: 100vh;
+    min-width: 100vw;
+    z-index: -1;
+    background-image: url(../../images/background-sand-gs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 0px 0px;
+}
+
+@media only screen and (min-width: 1860px) {
+    .bg {
+        background-position: 0px -250px;
+    }
 }
 
 /*-------------------------------HEADER--------------------------------*/
@@ -135,19 +164,19 @@ nav {
     padding-right: 0px;
 }
 
-.dropbtn-active{
+.dropbtn-active {
     color: var(--dark-yellow);
 }
 
-@media (min-width: 800px) {
-  .dropbtn {
-    display: none;
-  }
+@media only screen and (min-width: 800px) {
+    .dropbtn {
+        display: none;
+    }
 
-  nav {
-    display: flex;
-    height: inherit;
-  }
+    nav {
+        display: flex;
+        height: inherit;
+    }
 }
 
 .dropdown-content {
@@ -187,31 +216,31 @@ nav {
     gap: 8px;
 }
 
-@media (min-width: 800px) {
-  .dropdown-content {
-    position: static;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-height: 75px;
-    height: 75px;
-    width: fit-content;
-  }
+@media only screen and (min-width: 800px) {
+    .dropdown-content {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-height: 75px;
+        height: 75px;
+        width: fit-content;
+    }
 
-  .nav-link {
-    color: var(--light-gray);
-    font-size: 1.3rem;
-    font-weight: normal;
-    margin-left: 7px;
-  }
+    .nav-link {
+        color: var(--light-gray);
+        font-size: 1.3rem;
+        font-weight: normal;
+        margin-left: 7px;
+    }
 
-  .current {
-    color: var(--dark-yellow);
-  }
+    .current {
+        color: var(--dark-yellow);
+    }
 
-  .dropdown-content a:first-child {
-    margin-top: 0px;
-  }
+    .dropdown-content a:first-child {
+        margin-top: 0px;
+    }
 }
 
 /*------------------------------CONTENT--------------------------------*/
@@ -221,8 +250,10 @@ nav {
     position: absolute;
     top: 75px;
     width: 100vw;
-    max-width: 1300px;
+    background-color: rgba(255, 255, 255, 0.6);
     min-height: calc(100vh - 75px);
-    background-color: var(--light-gray);
-    padding: 0px 5px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
