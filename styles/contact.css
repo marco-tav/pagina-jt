@@ -264,7 +264,7 @@ nav {
 }
 
 .title > h1 {
-    font-size: clamp(2rem, 1rem + 3.5vw, 3.5rem);
+    font-size: clamp(1.8rem, 1rem + 3.5vw, 3rem);
     font-weight: 600;
     margin-top: 15px;
 }
