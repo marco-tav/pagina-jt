@@ -261,10 +261,65 @@ nav {
 .title {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .title > h1 {
-    font-size: clamp(1.8rem, 1rem + 3.5vw, 3rem);
+    font-size: clamp(1.8rem, 1rem + 3.5vw, 2.5rem);
     font-weight: 600;
     margin-top: 15px;
+}
+
+.info-container {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    border-bottom: 3px solid var(--dark-yellow);
+    font-size: clamp(1.3rem, 1rem + 0.7vw, 1.8rem);
+    padding-bottom: 3px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.info-container > p {
+    font-size: clamp(1.1rem, 1rem + 0.7vw, 1.4rem);
+    margin-top: -10px;
+    align-self: flex-end;
+}
+
+#social {
+    font-size: clamp(1.3rem, 1rem + 0.7vw, 1.8rem);
+    width: 100%;
+    max-width: 550px;
+}
+
+.social-media-links {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: -10px;
+}
+
+.social-media-links > a {
+    background-color: #dddddd;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+#youtube {
+    width: 70px;
+}
+
+.social-media-links img {
+    height: 40px;
 }
