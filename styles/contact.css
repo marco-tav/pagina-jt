@@ -141,7 +141,7 @@ header {
     z-index: 1000;
 }
 
-header a img {
+header > a img {
     max-width: 80px;
     margin-left: 15px;
     border-radius: 3px;
@@ -241,6 +241,10 @@ nav {
     .dropdown-content a:first-child {
         margin-top: 0px;
     }
+}
+
+.change-language>img {
+    height: 16px;
 }
 
 /*------------------------------CONTENT--------------------------------*/

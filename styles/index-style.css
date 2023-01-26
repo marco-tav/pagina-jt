@@ -142,6 +142,7 @@ nav {
     position: relative;
     display: inline-block;
     margin-left: auto;
+    margin-right: 10px;
 }
 
 .dropbtn {
@@ -232,6 +233,10 @@ nav {
   .dropdown-content a:first-child {
     margin-top: 0px;
   }
+}
+
+.change-language > img {
+    height: 16px;
 }
 
 /*------------------------------CONTENT--------------------------------*/
