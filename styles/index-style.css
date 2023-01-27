@@ -237,6 +237,7 @@ nav {
 
 .change-language > img {
     height: 18px;
+    border-radius: 3px;
 }
 
 /*------------------------------CONTENT--------------------------------*/
