@@ -126,9 +126,11 @@ body {
 
 .yellow-words {
   color: var(--light-yellow);
-  font-size: 1.6rem;
+  font-size: 1.7rem;
+  font-weight: normal;
+  line-height: 40px;
   width: 45%;
-  margin-top: 0px;
+  margin-top: -5px;
 }
 
 .service {
