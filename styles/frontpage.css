@@ -146,7 +146,7 @@ body {
 }
 
 .yellow-words {
-  color: var(--dark-yellow);
+  color: var(--light-yellow);
   font-size: 1.7rem;
   font-weight: normal;
   line-height: 35px;
@@ -166,6 +166,7 @@ body {
   font-weight: normal;
   font-size: 1.4rem;
   margin-bottom: 2px;
+  align-self: center;
 }
 
 .more {
