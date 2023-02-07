@@ -112,6 +112,7 @@ body {
   .content {
     flex-direction: row-reverse;
     justify-content: center;
+    gap: 50px;
     width: 100%;
     max-width: 1300px;
     height: 100%;
@@ -140,11 +141,11 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .display-picture {
-    width: 60%;
+    width: 75%;
   }
 
   .logo-info-container {
-    width: 40%;
+    width: 25%;
     flex-direction: column;
     align-items: flex-end;
   }
@@ -175,6 +176,19 @@ body {
   line-height: 35px;
   width: 100%;
   margin-top: -7px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .mobile-button-container {
+    align-items: flex-end;
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+  }
+
+  .yellow-words {
+    width: fit-content;
+  }
 }
 
 .service {
