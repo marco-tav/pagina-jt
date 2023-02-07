@@ -112,7 +112,7 @@ body {
   .content {
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
     width: 100%;
     max-width: 1300px;
     height: 100%;
@@ -160,6 +160,14 @@ body {
   width: 100%;
 }
 
+@media only screen and (min-width: 1000px) {
+  .logo-full {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
 .mobile-button-container {
   width: 45%;
   height: inherit;
@@ -188,6 +196,8 @@ body {
 
   .yellow-words {
     width: fit-content;
+    font-size: 1.9rem;
+    margin-bottom: 40px;
   }
 }
 
@@ -199,6 +209,8 @@ body {
 @media only screen and (min-width: 1000px) {
   .service {
     display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
   }
 }
 
@@ -211,6 +223,10 @@ body {
   font-size: 1.4rem;
   margin-bottom: 2px;
   align-self: center;
+}
+
+.more-button-mobile > img {
+  width: 30px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -226,6 +242,7 @@ body {
 @media only screen and (min-width: 1000px) {
   .more {
     display: block;
+    margin-top: auto;
   }
 
   .more-button-desktop {
@@ -234,5 +251,12 @@ body {
     color: var(--light-yellow);
     font-weight: normal;
     font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .more-button-desktop > img {
+    width: 32px;
+    margin-top: 5px;
   }
 }
