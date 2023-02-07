@@ -108,6 +108,17 @@ body {
   gap: 10px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .content {
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    height: 100%;
+    max-height: 800px;
+  }
+}
+
 .display-picture {
   width: 100%;
   max-width: 600px;
@@ -125,6 +136,18 @@ body {
   height: 100%;
   gap: 8px;
   max-width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .display-picture {
+    width: 60%;
+  }
+
+  .logo-info-container {
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 
 .logo-full {
@@ -156,6 +179,13 @@ body {
 
 .service {
   display: none;
+  color: var(--dark-gray);
+}
+
+@media only screen and (min-width: 1000px) {
+  .service {
+    display: block;
+  }
 }
 
 .more-button-mobile {
@@ -169,6 +199,26 @@ body {
   align-self: center;
 }
 
+@media only screen and (min-width: 1000px) {
+  .more-button-mobile {
+    display: none;
+  }
+}
+
 .more {
   display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .more {
+    display: block;
+  }
+
+  .more-button-desktop {
+    border: none;
+    background-color: black;
+    color: var(--light-yellow);
+    font-weight: normal;
+    font-size: 1.4rem;
+  }
 }
