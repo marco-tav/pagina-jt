@@ -197,7 +197,8 @@ body {
 
   .yellow-words {
     width: fit-content;
-    font-size: 1.9rem;
+    /*font-size: 1.9rem;*/
+    font-size: clamp(1.5rem, 1rem + 0.8vw, 1.9rem);
     margin-bottom: 40px;
   }
 }
