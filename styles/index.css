@@ -109,7 +109,7 @@ body {
   gap: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .content {
     flex-direction: row-reverse;
     justify-content: center;
@@ -140,7 +140,7 @@ body {
   max-width: 100%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .display-picture {
     width: 75%;
   }
@@ -161,7 +161,7 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .logo-full {
     width: 100%;
     margin-bottom: 10px;
@@ -187,7 +187,7 @@ body {
   margin-top: -5px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .mobile-button-container {
     align-items: flex-end;
     width: 100%;
@@ -208,10 +208,11 @@ body {
   color: var(--dark-gray);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .service {
     display: block;
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;*/
+    font-size: clamp(1rem, 0.7826rem + 0.3478vw, 1.2rem);
     margin-bottom: 0px;
   }
 }
@@ -231,7 +232,7 @@ body {
   width: 30px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .more-button-mobile {
     display: none;
   }
@@ -241,7 +242,7 @@ body {
   display: none;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .more {
     display: block;
     margin-top: auto;
@@ -271,7 +272,7 @@ body {
   height: 25px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .change-language {
     width: 30px;
     height: 30px;
