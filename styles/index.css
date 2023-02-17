@@ -196,7 +196,7 @@ body {
 
   .yellow-words {
     width: fit-content;
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     margin-bottom: 40px;
   }
 }
@@ -209,7 +209,7 @@ body {
 @media only screen and (min-width: 1100px) {
   .service {
     display: block;
-    font-size: clamp(1rem, 0.7826rem + 0.3478vw, 1.2rem);
+    font-size: clamp(1rem, 0.7826rem + 0.3478vw, 1.15rem);
     margin-bottom: 0px;
   }
 }
@@ -242,6 +242,11 @@ body {
   display: none;
 }
 
+@keyframes text-color-change {
+  from {color: var(--dark-gray);}
+  to {color: var(--light-yellow);}
+}
+
 @media only screen and (min-width: 1100px) {
   .more {
     display: block;
@@ -251,12 +256,22 @@ body {
   .more-link-desktop {
     border: none;
     background-color: black;
-    color: var(--light-yellow);
+    color: var(--dark-gray);
     font-weight: normal;
     font-size: 1.4rem;
     display: flex;
     align-items: center;
     text-decoration: none;
+  }
+
+  .more-link-desktop:hover {
+    color: var(--light-yellow);
+    animation-name: text-color-change;
+    animation-duration: 0.3s;
+  }
+
+  .more-link-desktop:active {
+    color: var(--dark-yellow);
   }
 
   .more-link-desktop > img {
