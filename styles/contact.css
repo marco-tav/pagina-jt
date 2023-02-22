@@ -191,6 +191,11 @@ nav {
     backdrop-filter: blur(6px);
 }
 
+@keyframes text-color-change {
+    from {color: var(--light-gray);}
+    to {color: var(--dark-yellow);}
+  }
+
 .nav-link {
     display: block;
     color: white;
@@ -232,6 +237,12 @@ nav {
         font-size: 1.3rem;
         font-weight: normal;
         margin-left: 7px;
+    }
+
+    .nav-link:hover {
+        color: var(--dark-yellow);
+        animation-name: text-color-change;
+        animation-duration: 0.2s;
     }
 
     .current {
