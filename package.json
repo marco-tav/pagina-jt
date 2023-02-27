@@ -1,0 +1,23 @@
+{
+  "name": "pagina-jt",
+  "version": "1.0.0",
+  "description": "Repository por JT's website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-tav/pagina-jt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marco-tav/pagina-jt/issues"
+  },
+  "homepage": "https://github.com/marco-tav/pagina-jt#readme",
+  "dependencies": {
+    "swup": "^3.0.4"
+  }
+}
